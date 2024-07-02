@@ -1,23 +1,21 @@
 {
-  "name": "razorpay-clone",
+  "name": "tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "tailwind",
   "main": "index.js",
   "scripts": {
     "start": "vite",
     "build": "vite build"
+
   },
-  "keywords": [],
-  "author": "siddhant",
-  "license": "ISC",
+  
   "devDependencies": {
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
-    "vite": "^4.5.3"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
   },
   "dependencies": {
-    "feather": "^0.0.5",
-    "feather-icons": "^4.29.0"
+    "feather": "^0.0.6",
+    "vite": "^5.3.2"
   }
 }
