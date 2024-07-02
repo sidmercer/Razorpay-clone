@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "vite",
-    "build:css": "tailwindcss build src/main.css -o dist/main.css",
-  "build": "npm run build:css && cp -r src/*.html dist/"
+    "build:css": "tailwindcss build src/main.css -o build/main.css",
+  "build": "npm run build:css && cp -r src/*.html build/"
   },
   
   "devDependencies": {
