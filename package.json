@@ -4,8 +4,11 @@
   "description": "tailwind",
   "main": "index.js",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build:css": "tailwindcss build src/styles.css -o dist/styles.css",
+  "build": "npm run build:css && cp -r src/*.html dist/"
   },
+  
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
